@@ -5,7 +5,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubicloud-standard-8
+    # runs-on: ubicloud-standard-8
+    runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
